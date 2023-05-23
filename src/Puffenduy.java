@@ -21,4 +21,6 @@ public class Puffenduy extends Hogwarts {
     public int getHonesty() {
         return honesty;
     }
+
+
 }

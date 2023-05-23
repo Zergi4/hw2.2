@@ -14,4 +14,13 @@ public class Hogwarts {
     public int getDistanceTransgression() {
         return distanceTransgression;
     }
+
+
+    @Override
+    public String toString() {
+        return "Hogwarts{" +
+                "powerMagic=" + powerMagic +
+                ", distanceTransgression=" + distanceTransgression +
+                '}';
+    }
 }

@@ -33,4 +33,6 @@ public class Slytherin extends Hogwarts {
     public int getAuthoritativeness() {
         return authoritativeness;
     }
+
+
 }
