@@ -4,15 +4,13 @@ public class Kogtevran extends Hogwarts {
     private int wit;
 
     private int creativity;
-    private String nameSurname;
 
-    public Kogtevran(String nameSurname, int powerMagic, int distanceTransgression, int mind, int wisdom, int wit, int creativity) {
-        super(powerMagic, distanceTransgression);
+    public Kogtevran(String nameSurname,int powerMagic, int distanceTransgression,  int mind, int wisdom, int wit, int creativity) {
+        super(powerMagic, distanceTransgression, nameSurname);
         this.mind = mind;
         this.wisdom = wisdom;
         this.wit = wit;
         this.creativity = creativity;
-        this.nameSurname = nameSurname;
     }
 
     public int getMind() {
@@ -31,9 +29,7 @@ public class Kogtevran extends Hogwarts {
         return creativity;
     }
 
-    public String getNameSurname() {
-        return nameSurname;
-    }
+  
 
     public static void getTheBest(Kogtevran person1, Kogtevran person2) {
         int totalPoints1 = person1.getCreativity() + person1.getWit() + person1.getMind() + person1.getWisdom();

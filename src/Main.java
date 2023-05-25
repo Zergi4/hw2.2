@@ -26,8 +26,11 @@ public class Main {
         Slytherin.getTheBest(gregoryGoil, grehamMontegu);
         Puffenduy.getTheBest(sedrikDiggori, justinFinch);
         Kogtevran.getTheBest(chzhouChang, marcusBelbi);
+        Hogwarts.getBest(harryPotter,padmaPatil);
 
     }
+
+
 
     public static void getInfo(Griffindor person) {
         System.out.println(" Информация о студенте: имя: " + person.getNameSurname() + " факультет: Griffindor{" +

@@ -1,5 +1,4 @@
 public class Slytherin extends Hogwarts {
-    private String nameSurname;
     private int cunning;
     private int determination;
     private int ambition;
@@ -7,17 +6,12 @@ public class Slytherin extends Hogwarts {
     private int authoritativeness;
 
     public Slytherin(String nameSurname, int powerMagic, int distanceTransgression, int cunning, int determination, int ambition, int resourcefulness, int authoritativeness) {
-        super(powerMagic, distanceTransgression);
-        this.nameSurname = nameSurname;
+        super(powerMagic, distanceTransgression, nameSurname);
         this.cunning = cunning;
         this.determination = determination;
         this.ambition = ambition;
         this.resourcefulness = resourcefulness;
         this.authoritativeness = authoritativeness;
-    }
-
-    public String getNameSurname() {
-        return nameSurname;
     }
 
     public int getCunning() {
