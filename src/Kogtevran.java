@@ -39,4 +39,16 @@ public class Kogtevran extends Hogwarts {
         } else System.out.println(person2.getNameSurname() + " лучший Когтевранец, чем " + person1.getNameSurname());
 
     }
+
+    @Override
+    public String toString() {
+        return "Kogtevran{" +
+                "powerMagic=" + getPowerMagic() +
+                ", disanceTransgression=" + getDistanceTransgression() +
+                " mind=" + mind +
+                ", wisdom=" + wisdom +
+                ", wit=" + wit +
+                ", creativity=" + creativity +
+                '}';
+    }
 }

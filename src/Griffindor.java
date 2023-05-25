@@ -36,5 +36,14 @@ public class Griffindor extends Hogwarts {
 
     }
 
-
+    @Override
+    public String toString() {
+        return "Факультет Griffindor{" +
+                "powerMagic=" + getPowerMagic() +
+                ", disanceTransgression=" + getDistanceTransgression() +
+                ", nobility=" + getNobility() +
+                ", honor=" + getHonor() +
+                ", bravery=" + getBravery() +
+                '}';
+    }
 }

@@ -42,4 +42,17 @@ public class Slytherin extends Hogwarts {
         } else System.out.println(person2.getNameSurname() + " лучший Слизериней, чем " + person1.getNameSurname());
 
     }
+
+    @Override
+    public String toString() {
+        return "Slytherin{" +
+                "powerMagic=" + getPowerMagic() +
+                ", disanceTransgression=" + getDistanceTransgression() +
+                " cunning=" + cunning +
+                ", determination=" + determination +
+                ", ambition=" + ambition +
+                ", resourcefulness=" + resourcefulness +
+                ", authoritativeness=" + authoritativeness +
+                '}';
+    }
 }

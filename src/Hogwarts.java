@@ -36,4 +36,12 @@ public class Hogwarts {
         } else System.out.println(person2.getNameSurname() +" обладает большей дальностью трангрессии , чем " + person1.getNameSurname());
     }
 
+    @Override
+    public String toString() {
+        return "Hogwarts{" +
+                "powerMagic=" + powerMagic +
+                ", distanceTransgression=" + distanceTransgression +
+                ", nameSurname='" + nameSurname + '\'' +
+                '}';
+    }
 }

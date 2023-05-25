@@ -33,4 +33,15 @@ public class Puffenduy extends Hogwarts {
         } else System.out.println(person2.getNameSurname() + " лучший Пуффендуец, чем " + person1.getNameSurname());
 
     }
+
+    @Override
+    public String toString() {
+        return "Факультет Puffenduy{" +
+                "powerMagic=" + getPowerMagic() +
+                ", disanceTransgression=" + getDistanceTransgression() +
+                " diligence=" + diligence +
+                ", loyalty=" + loyalty +
+                ", honesty=" + honesty +
+                '}';
+    }
 }

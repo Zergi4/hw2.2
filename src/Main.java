@@ -32,51 +32,29 @@ public class Main {
 
 
 
-    public static void getInfo(Griffindor person) {
-        System.out.println(" Информация о студенте: имя: " + person.getNameSurname() + " факультет: Griffindor{" +
-                "powerMagic=" + person.getPowerMagic() +
-                ", disanceTransgression=" + person.getDistanceTransgression() +
-                ", nobility=" + person.getNobility() +
-                ", honor=" + person.getHonor() +
-                ", bravery=" + person.getBravery() +
-                '}');
+
+        public static void getInfo(Griffindor person) {
+
+            System.out.print("Студент: " + person.getNameSurname());
+
+        System.out.println(" "+person.toString());
 
     }
 
     public static void getInfo(Puffenduy person) {
-        System.out.println(" Информация о студенте: имя: " + person.getNameSurname() + " факультет: Puffenduy{" +
-                "powerMagic=" + person.getPowerMagic() +
-                ", disanceTransgression=" + person.getDistanceTransgression() +
-                ", diligence=" + person.getDiligence() +
-                ", loyalty=" + person.getLoyalty() +
-                ", honesty=" + person.getHonesty() +
-                '}');
-
+        System.out.print("Студент: " + person.getNameSurname());
+        System.out.println(" " + person.toString());
     }
 
     public static void getInfo(Kogtevran person) {
-        System.out.println(" Информация о студенте: имя: " + person.getNameSurname() + " факультет: Kogtevran{" +
-                "powerMagic=" + person.getPowerMagic() +
-                ", disanceTransgression=" + person.getDistanceTransgression() +
-                ", mind=" + person.getMind() +
-                ", wisdom=" + person.getWisdom() +
-                ", wit=" + person.getWit() +
-                ", creativity=" + person.getCreativity() +
-                '}');
+        System.out.print("Студент: " + person.getNameSurname());
+        System.out.println(" " + person.toString());
 
     }
 
     public static void getInfo(Slytherin person) {
-        System.out.println(" Информация о студенте: имя: " + person.getNameSurname() + " факультет: Slytherin{" +
-                " powerMagic=" + person.getPowerMagic() +
-                ", disanceTransgression=" + person.getDistanceTransgression() +
-                ", cunning=" + person.getCunning() +
-                ", determination=" + person.getDetermination() +
-                ", ambition=" + person.getAmbition() +
-                ", resourcefulness=" + person.getResourcefulness() +
-                ", authoritativeness=" + person.getAuthoritativeness() +
-                '}');
-
+        System.out.print("Студент: " + person.getNameSurname());
+        System.out.println(" " + person.toString());
     }
 
 }
