@@ -16,11 +16,5 @@ public class Hogwarts {
     }
 
 
-    @Override
-    public String toString() {
-        return "Hogwarts{" +
-                "powerMagic=" + powerMagic +
-                ", distanceTransgression=" + distanceTransgression +
-                '}';
-    }
+
 }
